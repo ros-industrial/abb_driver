@@ -20,6 +20,8 @@ The driver is largely manipulator agnostic, and is expected to work with any ABB
 
 For more information, refer to the [ROS wiki][].
 
+Note: this is not a new development, but a migration of the old `abb_driver` package to a separate repository. See [Origin and history](#origin-and-history) for more information.
+
 
 ## TOC
 
@@ -172,3 +174,4 @@ References in issues and comments on commits in this repository from before the 
 [catkin_tools]: https://catkin-tools.readthedocs.io/en/latest
 [Working With ROS-Industrial Robot Support Packages]: http://wiki.ros.org/Industrial/Tutorials/WorkingWithRosIndustrialRobotSupportPackages
 [tutorials]: http://wiki.ros.org/abb/Tutorials
+
