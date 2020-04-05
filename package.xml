@@ -23,6 +23,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>simple_message</build_depend>
   <depend>industrial_robot_client</depend>
 
 </package>
