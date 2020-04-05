@@ -17,9 +17,9 @@
   <maintainer email="levi.armstrong@swri.org">Levi Armstrong (Southwest Research Institute)</maintainer>
   <license>BSD</license>
 
-  <url type="website">http://ros.org/wiki/abb_driver</url>
-  <url type="bugtracker">https://github.com/ros-industrial/abb/issues</url>
-  <url type="repository">https://github.com/ros-industrial/abb</url>
+  <url type="website">http://wiki.ros.org/abb_driver</url>
+  <url type="bugtracker">https://github.com/ros-industrial/abb_driver/issues</url>
+  <url type="repository">https://github.com/ros-industrial/abb_driver</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
