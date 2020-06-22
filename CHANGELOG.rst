@@ -2,6 +2,11 @@
 Changelog for package abb_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* First release of stand-alone ``abb_driver`` from new repository.
+* Contributors: gavanderhoorn
+
 1.3.1 (2019-09-17)
 ------------------
 * Add robot status publishing to Rapid driver (`#168 <https://github.com/ros-industrial/abb/pull/168>`_)
