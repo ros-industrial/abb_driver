@@ -2,8 +2,8 @@
 Changelog for package abb_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.0 (2020-06-22)
+------------------
 * First release of stand-alone ``abb_driver`` from new repository.
 * Contributors: gavanderhoorn
 
