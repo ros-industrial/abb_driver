@@ -40,7 +40,7 @@ Note: this is not a new development, but a migration of the old `abb_driver` pac
 This package is usable as-is, but is not feature complete.
 Only joint motion can be commanded and there is no support for IO, Cartesian motion or any other more advanced RAPID functionality.
 
-No significant development is planned, as focus has shifted to [abb_libegm][] and [abb_librws][].
+No significant development is planned, as focus has shifted to [abb_robot_driver][] (with [abb_libegm][] and [abb_librws][]).
 
 Community contributed usability enhancements and new features will however be accepted and merged.
 
@@ -166,6 +166,7 @@ References in issues and comments on commits in this repository from before the 
 [ROS wiki]: http://wiki.ros.org/abb_driver
 [abb]: https://github.com/ros-industrial/abb
 [ros-industrial/abb#179]: https://github.com/ros-industrial/abb/issues/179
+[abb_robot_driver]: https://github.com/ros-industrial/abb_robot_driver
 [abb_libegm]: https://github.com/ros-industrial/abb_libegm
 [abb_librws]: https://github.com/ros-industrial/abb_librws
 [REP 3: Target Platforms]: https://ros.org/reps/rep-0003.html
