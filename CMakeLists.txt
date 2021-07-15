@@ -1,13 +1,14 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(abb_driver)
-add_definitions(-std=c++11)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 find_package(catkin REQUIRED COMPONENTS industrial_robot_client simple_message)
 
 catkin_package(
   CATKIN_DEPENDS industrial_robot_client
 )
-
-add_definitions(-DLINUXSOCKETS=1)
 
 include_directories(
   include
@@ -25,6 +26,10 @@ target_link_libraries(${PROJECT_NAME}_robot_state
 set_target_properties(
   ${PROJECT_NAME}_robot_state
   PROPERTIES OUTPUT_NAME robot_state PREFIX "")
+target_compile_definitions(
+  ${PROJECT_NAME}_robot_state
+  PRIVATE
+  ${industrial_robot_client_DEFINITIONS})
 
 add_executable(${PROJECT_NAME}_motion_download_interface
   src/abb_joint_downloader_node.cpp
@@ -35,7 +40,10 @@ target_link_libraries(${PROJECT_NAME}_motion_download_interface
   ${catkin_LIBRARIES})
 set_target_properties(${PROJECT_NAME}_motion_download_interface
   PROPERTIES OUTPUT_NAME motion_download_interface PREFIX "")
-
+target_compile_definitions(
+  ${PROJECT_NAME}_motion_download_interface
+  PRIVATE
+  ${industrial_robot_client_DEFINITIONS})
 
 install(
   TARGETS
