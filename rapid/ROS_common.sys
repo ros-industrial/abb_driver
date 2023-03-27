@@ -34,7 +34,7 @@ RECORD ROS_joint_trajectory_pt
     num duration;
 ENDRECORD
 
-CONST num MAX_TRAJ_LENGTH := 100;
+CONST num MAX_TRAJ_LENGTH := 200;
 
 ! These variables should use TestAndSet read/write protection to prevent conflicts
 PERS bool ROS_trajectory_lock := false;
