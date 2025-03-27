@@ -1,7 +1,5 @@
 # abb_driver
 
-[![Build Status](http://build.ros.org/job/Mdev__abb_driver__ubuntu_bionic_amd64/badge/icon)](http://build.ros.org/job/Mdev__abb_driver__ubuntu_bionic_amd64)
-[![Build Status: Travis CI](https://travis-ci.com/ros-industrial/abb_driver.svg?branch=kinetic-devel)](https://travis-ci.com/ros-industrial/abb_driver)
 [![Github Issues](https://img.shields.io/github/issues/ros-industrial/abb_driver.svg)](http://github.com/ros-industrial/abb_driver/issues)
 
 [![license - bsd 3 clause](https://img.shields.io/:license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
